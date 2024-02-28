@@ -7,6 +7,13 @@
             "Nahidul77\\PermissionEditor\\": "src/"
         }
     },
+    "extra": {
+        "laravel":{
+            "providers":[
+                "Nahidul77\\PermissionEditor\\PermissionEditorServiceProvider"
+            ]
+        }
+    },
     "authors": [
         {
             "name": "Nahidul Islam",
