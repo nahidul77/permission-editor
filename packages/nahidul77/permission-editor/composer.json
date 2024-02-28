@@ -1,0 +1,18 @@
+{
+    "name": "nahidul77/permission-editor",
+    "description": "Visual UI for managing Roles/permission for spatie laravel package",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Nahidul77\\PermissionEditor\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Nahidul Islam",
+            "email": "contact.nahidul@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
