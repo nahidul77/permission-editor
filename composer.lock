@@ -2001,9 +2001,16 @@
             "dist": {
                 "type": "path",
                 "url": "packages/nahidul77/permission-editor",
-                "reference": "86a3e177d518dcb67c2702ad9b60775dee1f8715"
+                "reference": "bd252cbabac9251524d7079b3b39cd2dbc61f4b9"
             },
             "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Nahidul77\\PermissionEditor\\PermissionEditorServiceProvider"
+                    ]
+                }
+            },
             "autoload": {
                 "psr-4": {
                     "Nahidul77\\PermissionEditor\\": "src/"
